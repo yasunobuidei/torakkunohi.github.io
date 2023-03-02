@@ -1,0 +1,197 @@
+a {
+    color:#999999 ;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #4d4d4d;;
+  }
+
+  body {
+    background-color: #ACB5B9;
+  }
+  #photo{width: 85vw;
+    display: block; 
+    margin: auto;
+    margin-bottom:5vw;
+    margin-left:7.5vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+
+ h1{font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    width: 85vw;
+    color:black;
+    margin-left:7.5vw;
+    margin-top:5vw;
+    margin-bottom:2vw;}
+    
+
+
+@media screen and (min-width:768px) {
+    h2{font-family: 'Noto Sans JP', sans-serif;
+        font-size: 15px;
+        width: 85vw;
+        color:black;
+        margin-left:7.5vw;
+        margin-top:0vw;
+        margin-bottom:5vw;}
+ #name{width:15vw;
+        display: block; 
+        margin-top: 3vw;
+        margin-left: 7.5vw;
+        margin-right: 10vw;
+        margin-bottom: 3vw;
+    }
+    }
+ #menu1{height:1.5vw;
+    display: block; 
+    margin-top: 3vw;
+    margin-left: 5vw;}
+        #menu{width: 0px;
+            display: block; 
+            margin: auto;}
+            #instagram{height:2vw;
+                display: block; 
+                margin-top: 2.7vw;
+                margin-left: 5vw;}
+ 
+
+ .app {
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+           }        
+ .header {
+         height: 15vw;
+         background-color: transparent;
+         box-sizing: border-box;
+         border: 0px solid blue;
+         position: sticky;
+         top: 00px;
+         display: flex;
+         flex-direction:row;
+         flex-grow: 1;
+            
+           }
+ 
+ .main {
+         display: flex;
+         flex-direction: column;
+         flex-grow:1;
+           }
+ 
+
+ .content {
+         display: flex;
+         flex-direction: column;
+         flex-grow: 1;
+           }
+           #photo{width: 40vw;
+            display: block; 
+            margin: auto;
+            margin-bottom: 5vw;
+            margin-left: 7.5vw;
+            margin-top: 0;
+            
+
+ 
+ }
+ #photo{width: 85vw;
+    display: block; 
+    margin: auto;
+    margin-bottom:5vw;
+    margin-left:7.5vw;
+    margin-top: 0px;
+
+ 
+ 
+ }
+
+ .footer {
+    height: 15vw;
+    background-color:transparent;
+    box-sizing: border-box;
+    border: 0px solid blue;
+    position: sticky;
+    top: 00px;
+       
+      }
+ 
+ 
+ 
+ @media screen  and ( max-width:768px) {
+    h2{font-family: 'Noto Sans JP', sans-serif;
+        font-size: 8px;
+        width: 85vw;
+        color:black;
+        margin-left:7.5vw;
+        margin-top:0vw;
+        margin-bottom:5vw;}
+ 
+     
+    #name{width: 23vw;
+        display: block; 
+        margin-left:2.5vw;
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        }
+ #menu1{width:0px;
+        display: block; 
+        margin: auto;
+        position: absolute;
+        top:10px;
+        right:auto;}
+        #menu{width: 10vw;
+            display: block; 
+            margin-left:7.5vw;
+            margin-top: 3vw;
+            margin-bottom: 5vw;
+            }
+            #instagram{width: 00px;
+                display: block; 
+                margin: auto;
+                position: absolute;
+                top:10px;
+                right:auto;}
+  
+
+  .header {
+          height: 100px;
+          background-color: transparent;
+          box-sizing: border-box;
+          border: 0px solid blue;
+          position: sticky;
+          top: 00px;
+             
+            }
+  
+  .main {
+          display: flex;
+          flex-direction: column;
+          flex-grow:1;
+            }
+  
+ 
+  .content {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+            }
+
+ 
+  .footer {
+    height: 15vw;
+    background-color:transparent;
+    box-sizing: border-box;
+    border: 0px solid blue;
+    position: sticky;
+    top: 00px;
+       
+      }
+  
+ }
+ 
